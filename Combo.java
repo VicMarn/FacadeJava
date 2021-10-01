@@ -13,5 +13,8 @@ public class Combo {
     public void ListaItensCombo(){
         OC.MostraItens();
     }
+    public void removerItem(){
+        OC.Remover();
+    }
 
 }

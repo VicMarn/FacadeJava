@@ -26,7 +26,9 @@ public class OrganizaCombo {
             System.out.println(ListaItens.get(j).getDescricao());
         }
     }
-    public void Remover(){}
+    public void Remover(){
+        ListaItens.remove(1);
+    }
 
     public String getPratoPrincipal() {
         return PratoPrincipal;
